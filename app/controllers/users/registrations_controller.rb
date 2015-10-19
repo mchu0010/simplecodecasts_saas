@@ -1,5 +1,9 @@
 class Users::RegistrationsController < Devise::RegistrationsController
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> stripe_integration
   before_filter :select_plan, only: :new
 
   def create
